@@ -1,0 +1,41 @@
+
+body{
+    background-color: bisque;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    color: brown;
+    text-transform: uppercase;
+}
+
+input[type=file] {
+    display:inline-block;
+    }
+
+img {
+    width:70%;
+    border: 5px solid burlywood;
+    }
+
+hr{
+    border: 5px solid burlywood;
+    }
+
+select {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold !important;
+    color: #000000 !important;
+    background:  blanchedalmond !important;
+    text-transform: uppercase;
+    margin-right: 2px;
+}
+
+.option {
+    font-weight: bold !important;
+    color: #000000 !important;
+    background: whitesmoke !important;
+    text-transform: uppercase;
+}
