@@ -32,7 +32,7 @@
 
 		<img src="{{ url_for('display_image', filename=filename) }}"><br><br><br>
 
-		<a class = "btn btn-danger btn-lg" href="{{url_for('download_file')}}">Download Image</a>
+		<a class = "btn btn-danger btn-lg" href="{{url_for('download_file',filename=filename)}}">Download Image</a>
 
 </center>
 </body>
